@@ -1,0 +1,77 @@
+div.heading {
+    color: #FF9900;
+    font-family: Tahoma;
+    font-weight: 600;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid black;
+    max-width: 192px;
+}
+
+#mac, #pc {
+    display: inline-block;
+    position: relative;
+}
+
+#mac {
+    margin-left: 9.8%;
+    border-right: 1px solid black;
+    padding: 6px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
+#wrapper {
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+#bigger {
+    max-width: 535px;
+    margin-top: 7.5%
+}
+
+#button {
+    margin-left: 7%;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+
+#version {
+    padding: 10px;
+    display: inline-block;
+}
+
+a.latest_download {
+   border-top: 1px solid #e8ba88;
+   background: #d69a65;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ed9213), to(#d69a65));
+   background: -webkit-linear-gradient(top, #ed9213, #d69a65);
+   background: -moz-linear-gradient(top, #ed9213, #d69a65);
+   background: -ms-linear-gradient(top, #ed9213, #d69a65);
+   background: -o-linear-gradient(top, #ed9213, #d69a65);
+   padding: 8px 16px;
+   -webkit-border-radius: 11px;
+   -moz-border-radius: 11px;
+   border-radius: 11px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+a.latest_download:hover {
+   border-top-color: #b39472;
+   background: #b87e40;
+   color: #ccc;
+   }
+a.latest_download:active {
+   border-top-color: #b88157;
+   background: #b88157;
+   }
